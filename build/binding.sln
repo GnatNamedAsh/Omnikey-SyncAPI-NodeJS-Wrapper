@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Documents)", "..\Users\Void_boi\Documents", "{8C67C945-FF6E-EF2D-DA7C-77BE59439D5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(EHR-Testing)", "..\Users\Void_boi\Documents\Projects\EHR-Testing", "{0EEFF7EA-830D-1CCD-B795-58966C5AEFD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Projects)", "..\Users\Void_boi\Documents\Projects", "{1D3F8A96-D020-B8A7-7370-4199E8F409F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Void_boi)", "..\Users\Void_boi", "{B84B5762-729E-B504-338B-BCDD7FBEFA4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\Void_boi\Documents\Projects\EHR-Testing\node_modules\node-addon-api", "{B188ECFD-F1FE-E4B0-7FB9-DB2FD519CF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\Void_boi\Documents\Projects\EHR-Testing\node_modules", "{3A30915B-BCE7-D3BA-A1DD-2DF26E250944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Users\Void_boi\Documents\Projects\EHR-Testing\node_modules\node-addon-api\src", "{7AB27A04-4A31-6F31-7E06-7E71AE4B5F6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smartcard", "Smartcard.vcxproj", "{5E531F3C-8A90-9DEA-0AB2-119476CA16D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19} = {65D52337-036E-D24C-9D2D-56F4DA1A3B19}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{65D52337-036E-D24C-9D2D-56F4DA1A3B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E531F3C-8A90-9DEA-0AB2-119476CA16D9}.Debug|x64.ActiveCfg = Debug|x64
+		{5E531F3C-8A90-9DEA-0AB2-119476CA16D9}.Debug|x64.Build.0 = Debug|x64
+		{5E531F3C-8A90-9DEA-0AB2-119476CA16D9}.Release|x64.ActiveCfg = Release|x64
+		{5E531F3C-8A90-9DEA-0AB2-119476CA16D9}.Release|x64.Build.0 = Release|x64
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19}.Debug|x64.ActiveCfg = Debug|x64
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19}.Debug|x64.Build.0 = Debug|x64
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19}.Release|x64.ActiveCfg = Release|x64
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D3F8A96-D020-B8A7-7370-4199E8F409F5} = {8C67C945-FF6E-EF2D-DA7C-77BE59439D5A}
+		{3A30915B-BCE7-D3BA-A1DD-2DF26E250944} = {0EEFF7EA-830D-1CCD-B795-58966C5AEFD5}
+		{0EEFF7EA-830D-1CCD-B795-58966C5AEFD5} = {1D3F8A96-D020-B8A7-7370-4199E8F409F5}
+		{B84B5762-729E-B504-338B-BCDD7FBEFA4C} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{8C67C945-FF6E-EF2D-DA7C-77BE59439D5A} = {B84B5762-729E-B504-338B-BCDD7FBEFA4C}
+		{7AB27A04-4A31-6F31-7E06-7E71AE4B5F6C} = {B188ECFD-F1FE-E4B0-7FB9-DB2FD519CF91}
+		{B188ECFD-F1FE-E4B0-7FB9-DB2FD519CF91} = {3A30915B-BCE7-D3BA-A1DD-2DF26E250944}
+		{65D52337-036E-D24C-9D2D-56F4DA1A3B19} = {7AB27A04-4A31-6F31-7E06-7E71AE4B5F6C}
+	EndGlobalSection
+EndGlobal

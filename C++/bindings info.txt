@@ -1,0 +1,7 @@
+https://nodeaddons.com/c-processing-from-node-js/
+http://syskall.com/how-to-write-your-own-native-nodejs-extension
+https://stackoverflow.com/questions/9629677/how-can-i-use-a-c-library-from-node-js
+https://nodejs.org/api/addons.html
+https://medium.com/@marcinbaraniecki/extending-node-js-with-native-c-modules-63294a91ce4
+https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f
+https://medium.com/@tarkus/how-to-call-c-c-code-from-node-js-86a773033892
